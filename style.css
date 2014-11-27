@@ -18,12 +18,9 @@ body {
 /* Basic styling */
 
 .jumbotron {
-  background-image: url('spices.jpg'); 
+  background-image: url('pictures/symphony.png'); 
   height: 100%;
-  -webkit-background-size: cover;
-     -moz-background-size: cover;
-       -o-background-size: cover;
-          background-size: cover;
+  background-repeat: repeat;
 }
 
 .jumbotron1 {
@@ -52,7 +49,7 @@ body {
 }
 
 .menu a {
-  color: #fff;
+  color: #ffffff;
   font-size: 15px;
   text-decoration: none;
   text-transform: uppercase;
@@ -66,7 +63,7 @@ body {
 }
 
 .icon-menu {
-  color: #fff;
+  color: #0a0a0a;
   cursor: pointer;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -83,8 +80,9 @@ body {
 
 .greeting {
   font-size: 60px;
-  font-family: 'Roboto', sans-serif;
-  color: #ffffff;
+  font-family: 'Abel', sans-serif;
+  font-weight: 300;
+  color: #0a0a0a;
   padding-left: 300px ;
 }
 
@@ -92,8 +90,7 @@ body {
   color: #000000;
   background-color: #000000;
   opacity:0.3;
-  width: 600px;
-  height: 100px;
+
   border: 5px solid white;
   padding-bottom: 25px;
   padding-left: 25px;
@@ -101,3 +98,86 @@ body {
   margin-left: 300px;
   margin-top:30px;
 }
+
+.image {
+  opacity: 1;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  margin-left: 300px;
+  margin-top:30px;
+  border: 2px solid;
+  -webkit-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.rounded {
+  opacity: 1;
+  margin-top: 20px;
+  margin-left: 300px;
+  border: 0.5px solid;
+  -webkit-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  width: 600px;
+  height: 400px;
+}
+
+.recipe-link {
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  margin-left: 300px;
+  font-size: 30px;
+  font-family: 'Abel', sans-serif;
+  font-weight: 400;
+  color: #0a0a0a;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+   margin-left: 300px;
+   margin-top:30px;
+   border-top: 1px solid #96d1f8;
+   background: #65d6a7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65d6a7));
+   background: -webkit-linear-gradient(top, #3e779d, #65d6a7);
+   background: -moz-linear-gradient(top, #3e779d, #65d6a7);
+   background: -ms-linear-gradient(top, #3e779d, #65d6a7);
+   background: -o-linear-gradient(top, #3e779d, #65d6a7);
+   padding: 13.5px 27px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #ffffff;
+   font-size: 20px;
+    font-family: 'Abel', sans-serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #0c90e8;
+   background: #0c90e8;
+   color: #ffffff;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
